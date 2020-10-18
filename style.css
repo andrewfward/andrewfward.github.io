@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: seagreen;
+}
+
+h1 {
+    background-color: seagreen;
+    color: white;
+    font-size: 60px;
+    border-bottom: 4px solid white;
+}
+
+h2 {
+    background-color: seagreen;
+    color: white;
+}
+
+p {
+    background-color: seagreen;
+    color: white;
+}
