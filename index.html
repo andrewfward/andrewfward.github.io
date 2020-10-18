@@ -15,6 +15,14 @@
     </p>
   </body>
 
+  <script>
+    function handleClick(node) {
+      var value = nod.getAttribute('class') || '';
+      value = value === '' ? 'clicked' : '';
+      node.setAttribute('class', value);
+    }
+  </script>
+
   <footer>
       <p style="border-top: solid white;">Powered by GitHub Pages (and proudly sponsored by Hovis)</p>
   </footer>
