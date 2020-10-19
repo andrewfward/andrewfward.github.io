@@ -9,10 +9,8 @@ h1 {
     font-size: 60px;
     border-bottom: 4px solid white;
 }
-
-h1.clicked {
-    color: lightslategray;
-    background-color: seagreen;
+h1.node {
+    font-family: monospace;
 }
 
 h2 {

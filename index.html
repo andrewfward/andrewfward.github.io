@@ -3,25 +3,36 @@
   <head>
     <title>Settees of West Scotland</title>
     <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <header>
-    <h1 onclick="handleClick(this)">Settees of West Scotland</h1>
+    <h1>Settees of West Scotland</h1>
   </header>
 
   <body>
+    <div>
+    <h2>
+      You can see the moon from here!
+    </h2>
+    </div>
     <p style="margin-left: 20px;">Watch this space!
     <br>Settees and more coming soon!
     </p>
-  </body>
 
-  <script>
-    function handleClick(node) {
-      var value = node.getAttribute('class') || '';
-      value = value === '' ? 'clicked' : '';
-      node.setAttribute('class', value);
-    }
-  </script>
+    <script>
+      $(document).ready(function () {
+        $('h1').prepend('<span class="node">-</span>');
+        $('h1').click(
+          function() {
+            var mark = node.text();
+            mark = mark === '-' ? '+' : '-';
+            node.text(mark);
+          });
+        })
+      });
+    </script>
+  </body>
 
   <footer>
       <p style="border-top: solid white;">Powered by <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (and proudly sponsored by Hovis)</p>
