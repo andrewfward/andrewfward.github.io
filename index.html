@@ -11,19 +11,19 @@
   </header>
 
   <body>
-    <div>
     <h2>
       You can see the moon from here!
     </h2>
-    </div>
+    <div>
     <p style="margin-left: 20px;">Watch this space!
     <br>Settees and more coming soon!
     </p>
+    </div>
 
     <script>
       $(document).ready(function () {
-        $('h1').prepend('<span class="node">-</span>');
-        $('h1').click(
+        $('h2').prepend('<span class="node">-</span>');
+        $('h2').click(
           function() {
             var mark = node.text();
             mark = mark === '-' ? '+' : '-';

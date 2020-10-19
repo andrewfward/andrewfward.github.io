@@ -9,7 +9,7 @@ h1 {
     font-size: 60px;
     border-bottom: 4px solid white;
 }
-h1.node {
+h2.node {
     font-family: monospace;
 }
 
