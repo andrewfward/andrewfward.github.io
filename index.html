@@ -15,8 +15,8 @@
       You can see the moon from here!
     </h2>
     <div>
-    <p style="margin-left: 20px;">
-      The moon is made of cheese.
+    <p style="margin-left: 20px">
+      The moon is made of cheese
     </p>
     </div>
     <p style="margin-left: 20px;">
@@ -25,27 +25,23 @@
 
     <script>
       $(document).ready(function () {
-        $('h2').prepend('<span class="node">-</span>');
+        $('h2').prepend('<span class="node">+</span>');
         $('h2').click(
           function() {
             var node = $(this).children('.node');
             $(this).next().fadeToggle(500, 'swing',
                 function () {
                   var mark = node.text();
-                  mark = mark === '-' ? '+' : '-';
+                  mark = mark === '+' ? '-' : '+';
                   node.text(mark);
               });
           })
       });
     </script>
-  </body>
-
-  <footer>
-    <div style="position: relative;width: 600 px; height: 800px;">
-      <div style = "position:absolute; bottom 5px;">
-        <p style="border-top: solid white;">Powered by <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (and proudly sponsored by Hovis)</p>
-      </div>
-    </div>
-  </footer>
-</html>
-
+    </body>
+    
+    <footer style="border-top: solid white;">
+      Powered by <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (and proudly sponsored by Hovis)
+    </footer>
+    
+    </html>
