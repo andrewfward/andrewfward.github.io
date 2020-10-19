@@ -28,12 +28,15 @@
         $('h2').prepend('<span class="node">-</span>');
         $('h2').click(
           function() {
-            var mark = node.text();
-            mark = mark === '-' ? '+' : '-';
-            node.text(mark);
-          });
-        })
-      });
+            var node = $(this).children('.node');
+            $(this).next().fadeToggle(500, 'swing',
+                function () {
+                  var mark = node.text();
+                  mark = mark === '-' ? '+' : '-';
+                  node.text(mark);
+                });
+            })
+        });
     </script>
   </body>
 
