@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Settees of West Scotland</title>
-    <link href="style.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <meta name="author"; content="Andrew Ward">
+    <meta charset="utf-8">
   </head>
 
   <header>
@@ -14,30 +15,16 @@
     <h2>
       You can see the moon from here!
     </h2>
-    <div>
-    <p style="margin-left: 20px">
-      The moon is made of cheese
-    </p>
-    </div>
-    <p style="margin-left: 20px;">
-      Watch this space for a gallery of traditional West Scottish settees and much more!
+    <p>
+      <pre>
+      <code> 
+        if moon = visible:
+          moonMaterial = cheese
+      </code> 
+    </pre>
+      Watch this space for a gallery of <em>traditional West Scottish settees</em> and much more!
     </p>
 
-    <script>
-      $(document).ready(function () {
-        $('h2').prepend('<span class="node">+</span>');
-        $('h2').click(
-          function() {
-            var node = $(this).children('.node');
-            $(this).next().fadeToggle(500, 'swing',
-                function () {
-                  var mark = node.text();
-                  mark = mark === '+' ? '-' : '+';
-                  node.text(mark);
-              });
-          })
-      });
-    </script>
     </body>
     
     <footer style="border-top: solid white;">
