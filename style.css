@@ -25,6 +25,18 @@ p {
     margin-left: 20px;
 }
 
+ul {
+    padding: 8 px 0;
+}
+li {
+    padding: 8 px 20 px;
+    display: inline;
+}
+
+li.active {
+    background-color: black;
+}
+
 footer{
     color: white;
     text-align: center;
