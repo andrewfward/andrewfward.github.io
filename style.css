@@ -1,3 +1,7 @@
+header {
+    border-bottom: 4px solid white;
+}
+
 body {
     font-family: Verdana, Arial, sans-serif;
     background-color: seagreen;
@@ -7,7 +11,6 @@ h1 {
     background-color: seagreen;
     color: white;
     font-size: 60px;
-    border-bottom: 4px solid white;
     text-align: center;
 }
 h2.node {
@@ -26,6 +29,7 @@ p {
 }
 
 ul {
+    color: white;
     padding: 8 px 0;
 }
 li {
