@@ -35,10 +35,13 @@ ul {
 li {
     padding: 8 px 20 px;
     display: inline;
+    color: white;
 }
 
 li.active {
-    background-color: black;
+    background-color: white;
+    color: seagreen;
+    font-size: 20 px;
 }
 
 footer{
