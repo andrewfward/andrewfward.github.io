@@ -1,15 +1,16 @@
-header {
-    border-bottom: 4px solid white;
+nav {
+    display:inline-block;
+    width:100%;
+    right:0;
+    text-align:right;
+    font-size:1rem
 }
 
 body {
     font-family: Verdana, Arial, sans-serif;
-    background-color: seagreen;
 }
 
 h1 {
-    background-color: seagreen;
-    color: white;
     font-size: 60px;
     text-align: center;
 }
@@ -18,34 +19,27 @@ h2.node {
 }
 
 h2 {
-    background-color: seagreen;
-    color: white;
+
 }
 
 p {
-    background-color: seagreen;
-    color: white;
-    margin-left: 20px;
+
 }
 
 ul {
-    color: white;
     padding: 8 px 0;
 }
 li {
     padding: 8 px 20 px;
     display: inline;
-    color: white;
     font-size: 40 px;
 }
 
 li.active {
-    background-color: white;
-    color: seagreen;
+
 }
 
 footer{
-    color: white;
     text-align: center;
     bottom: 0px;
 }
