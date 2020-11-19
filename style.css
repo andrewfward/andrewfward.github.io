@@ -2,7 +2,7 @@ nav {
     display:inline-block;
     width:100%;
     right:0;
-    text-align:right;
+    text-align:center;
     font-size:1rem
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
 }
 h2.node {
@@ -19,11 +19,11 @@ h2.node {
 }
 
 h2 {
-
+    padding-left: 2pt;
 }
 
 p {
-
+    padding-left: 2pt;
 }
 
 ul {
@@ -35,8 +35,11 @@ li {
     font-size: 40 px;
 }
 
-li.active {
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 footer{
