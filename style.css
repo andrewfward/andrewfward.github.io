@@ -2,7 +2,7 @@ html {
     background-color: #f8f8ff;
 }
 
-nav {
+header nav {
     display:inline-block;
     width:100%;
     right:0;
@@ -31,9 +31,10 @@ p {
 }
 
 ul {
-    padding: 8 px 0;
+    list-style: square;
+    padding: 0;
 }
-li {
+ul li {
     padding: 8 px 20 px;
     display: inline;
     font-size: 40 px;
