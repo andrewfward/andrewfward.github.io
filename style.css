@@ -9,6 +9,9 @@ header nav {
     text-align:center;
     font-size:1rem
 }
+header nav ul li{
+    display:inline-block;
+}
 
 body {
     font-family: Verdana, Arial, sans-serif;
@@ -31,12 +34,11 @@ p {
 }
 
 ul {
-    list-style: square;
+    list-style: inside square;
     padding: 0;
 }
 ul li {
     padding: 8 px 20 px;
-    display: inline;
     font-size: 40 px;
 }
 
