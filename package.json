@@ -1,0 +1,41 @@
+{
+  "name": "andrewfward.github.io",
+  "version": "1.0.0",
+  "description": "This will be a personal website / opportunity for me to mess around with coding in HTML, CSS and Javascript. Powered by GitHub Pages. The full website can be accessed at andrewward.studio",
+  "main": "index.js",
+  "dependencies": {
+    "binary-extensions": "^2.1.0",
+    "anymatch": "^3.1.1",
+    "bootstrap": "^4.5.3",
+    "braces": "^3.0.2",
+    "fsevents": "^2.1.3",
+    "fill-range": "^7.0.1",
+    "is-binary-path": "^2.1.0",
+    "chokidar": "^3.4.3",
+    "glob-parent": "^5.1.1",
+    "is-glob": "^4.0.1",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "picomatch": "^2.2.2",
+    "readdirp": "^3.5.0",
+    "to-regex-range": "^5.0.1",
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfward/andrewfward.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewfward/andrewfward.github.io/issues"
+  },
+  "homepage": "https://github.com/andrewfward/andrewfward.github.io#readme"
+}
