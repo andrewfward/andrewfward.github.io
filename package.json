@@ -1,0 +1,22 @@
+{
+  "name": "andrewfward.github.io",
+  "version": "1.0.0",
+  "description": "This will be a personal website / opportunity for me to mess around with coding in HTML, CSS and Javascript. Powered by GitHub Pages. The full website can be accessed at andrewward.studio",
+  "main": "jquery-3.5.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfward/andrewfward.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewfward/andrewfward.github.io/issues"
+  },
+  "homepage": "https://github.com/andrewfward/andrewfward.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
