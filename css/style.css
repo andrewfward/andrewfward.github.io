@@ -82,3 +82,7 @@ td, th {
     color: white;
     border: 2px solid white;
 }
+
+iframe {
+    display: block;
+}
